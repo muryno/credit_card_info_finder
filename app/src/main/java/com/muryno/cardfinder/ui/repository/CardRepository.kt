@@ -1,4 +1,4 @@
-package com.muryno.cardfinder.ui.presenter
+package com.muryno.cardfinder.ui.repository
 
 import com.muryno.cardfinder.db.CardDetails
 import com.muryno.cardfinder.server.RetrofitClient
@@ -7,7 +7,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class CardPresenter {
+class CardRepository {
 
 
 

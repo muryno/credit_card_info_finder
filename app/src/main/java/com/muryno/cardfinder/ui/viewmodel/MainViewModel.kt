@@ -1,15 +1,14 @@
 package com.muryno.cardfinder.ui.viewmodel
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.muryno.cardfinder.db.CardDetails
-import com.muryno.cardfinder.ui.presenter.CardPresenter
+import com.muryno.cardfinder.ui.repository.CardRepository
 import com.muryno.cardfinder.ui.view.CardView
 
 class MainViewModel : ViewModel(), CardView {
 
-    var presenter: CardPresenter = CardPresenter()
+    var presenter: CardRepository = CardRepository()
 
 
 
