@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Card Finder</string>
+
+    <string name="card_header">NFN CARD</string>
+    <string name="card_number_sample">XXXX XXXX XXXX XXXX</string>
+    <string name="card_validity_label">VALID UPTO</string>
+    <string name="card_validity_sample">MM/YY</string>
+    <string name="card_name_sample">CARD HOLDER</string>
+    <string name="card_type">Card type</string>
+    <string name="bank">Bank</string>
+    <string name="country">Country</string>
+    <string name="currency">Currency</string>
+    <string name="here_are_your_n_card_details">Here are your\n card details</string>
+    <string name="card_details">Scan your credit card number or\nEnter the first digits of a card number (BIN/IIN)</string>
+    <string name="enter_card_number">Enter card number</string>
+
+    <string name="card_number"> XXXX XXXX XXXX XXXX</string>
+
+
+</resources>

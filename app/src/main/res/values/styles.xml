@@ -1,0 +1,111 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/mavenpro_regular</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Splash">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ButtonStyle"
+        parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/GreenButtonThemeOverlay</item>
+     </style>
+
+    <style name="GreenButtonThemeOverlay">
+    <item name="colorPrimary">@color/colorAccent</item>
+        <item name="android:drawableLeft">@drawable/ic_scan</item>
+    </style>
+
+
+    <style name="matchwrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textview_small" parent="matchwrap">
+
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="textview_medium" parent="matchwrap">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+        <item name="android:fontFamily">@font/mavenpro_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="view_line">
+        <item name="android:layout_marginTop">@dimen/ten_dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+    </style>
+
+    <style name="linear_layout_line" parent="matchwrap">
+        <item name="android:layout_marginEnd">@dimen/twenty_dp</item>
+    </style>
+
+    <style name="icon_styl">
+        <item name="android:layout_marginTop">@dimen/fiftn_dp</item>
+        <item name="android:layout_height">@dimen/twenty_fiv_dp</item>
+        <item name="android:layout_width">@dimen/twenty_fiv_dp</item>
+        <item name="android:layout_marginStart">@dimen/twenty_dp</item>
+        <item name="android:layout_marginEnd">@dimen/twenty_dp</item>
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+
+    <style name="title_text" parent="matchwrap">
+
+        <item name="android:textSize">@dimen/count_text</item>
+        <item name="android:layout_marginBottom">@dimen/five_dp</item>
+        <item name="android:fontFamily">@font/mavenpro_regular</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">@dimen/eithen_dp</item>
+
+
+    </style>
+    <style name="title_detail_text" >
+        <item name="android:textSize">@dimen/sevntten_sp</item>
+        <item name="android:layout_marginBottom">@dimen/thirt_five_dp</item>
+        <item name="android:layout_marginTop">@dimen/five_dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="text_content" >
+        <item name="android:textSize">@dimen/nav_header_text</item>
+        <item name="android:layout_margin">@dimen/sixteen_dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/mavenpro_regular</item>
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+
+<!--////      <TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="16dp"-->
+<!--    android:fontFamily="@font/mavenpro_regular"-->
+<!--    android:gravity="center_vertical"-->
+<!--    android:text="@string/card_details"-->
+<!--    android:textSize="20sp" />-->
+
+</resources>

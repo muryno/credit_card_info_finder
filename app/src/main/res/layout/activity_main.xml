@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/frame_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        style="@style/matchwrap"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/matchwrap"
+            android:layout_marginStart="@dimen/fiftn_dp"
+            >
+            <TextView
+
+                style="@style/title_text"
+                android:id="@+id/sch_title"
+                android:text="hi,"
+                />
+
+            <TextView
+                android:id="@+id/greeting_"
+
+                style="@style/title_detail_text"
+                android:layout_below="@id/sch_title"
+                tools:text="good morning" />
+
+            <ImageView
+                android:id="@+id/icon_img"
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="4dp"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:src="@drawable/ic_cloudy_night"
+                android:layout_toEndOf="@id/greeting_"
+                android:layout_alignTop="@id/greeting_"
+                />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200dp"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:text="@string/card_details"
+                    style="@style/text_content"/>
+
+                <include
+                    layout="@layout/card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/edtCardNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:padding="10dp"
+
+                    android:digits="01234 56789"
+
+
+                    android:hint="@string/enter_card_number"
+                    android:maxLength="19"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mavenpro_medium"
+                    android:text="OR"
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"/>
+
+
+
+
+                <Button
+
+                    style="@style/ButtonStyle"
+                    android:id="@+id/btn"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+
+                    android:text="Click to scan card"/>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        layout="@layout/progress_dialog"
+        />
+
+
+</FrameLayout>

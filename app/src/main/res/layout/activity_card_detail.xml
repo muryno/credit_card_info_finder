@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <ImageView
+        android:id="@+id/cancl"
+        style="@style/icon_styl"
+        android:src="@drawable/close"
+        android:tint="@color/black"
+        android:layout_marginBottom="15sp"
+        />
+
+
+    <ScrollView
+        android:id="@+id/details"
+        style="@style/matchwrap"
+        android:layout_below="@id/cancl"
+        >
+        <LinearLayout
+            style="@style/matchwrap"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/mavenpro_regular"
+                android:text="@string/here_are_your_n_card_details"
+                android:textSize="30sp" />
+
+
+            <RelativeLayout
+                style="@style/matchwrap"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:id="@+id/username"
+                    style="@style/icon_styl"
+                    android:src="@drawable/ic_credit_card"
+                   />
+
+                <LinearLayout
+                    android:id="@+id/usernameLayout"
+                    style="@style/linear_layout_line"
+                    android:layout_toEndOf="@id/username"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Card brand"
+                        style="@style/textview_small"
+                        />
+
+                    <TextView
+                        android:id="@+id/crd_brand"
+                        tools:text="Master card"
+                        style="@style/textview_medium"
+                    />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/view_line"
+                    android:layout_below="@id/usernameLayout"
+                    android:background="@color/grey"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/matchwrap"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    style="@style/icon_styl"
+                    android:src="@drawable/ic_debt_card"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/v2"
+                    style="@style/linear_layout_line"
+                    android:layout_toEndOf="@id/img2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/card_type"
+                        style="@style/textview_small"
+                        />
+
+                    <TextView
+                        android:id="@+id/crd_type"
+                        tools:text="Debit card"
+                        style="@style/textview_medium"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/view_line"
+                    android:layout_below="@id/v2"
+                    android:background="@color/grey"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/matchwrap"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    style="@style/icon_styl"
+                    android:src="@drawable/ic_museum"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/v3"
+                    style="@style/linear_layout_line"
+                    android:layout_toEndOf="@id/img3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/bank"
+                        style="@style/textview_small"
+                        />
+
+                    <TextView
+                        android:id="@+id/bank"
+                        tools:text="First bank"
+                        style="@style/textview_medium"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/view_line"
+                    android:layout_below="@id/v3"
+                    android:background="@color/grey"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/matchwrap"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    style="@style/icon_styl"
+                    android:src="@drawable/ic_country"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/v4"
+                    style="@style/linear_layout_line"
+                    android:layout_toEndOf="@id/img4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/country"
+                        style="@style/textview_small"
+                        />
+
+                    <TextView
+                        android:id="@+id/country"
+                        tools:text="Nigeria"
+                        style="@style/textview_medium"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/view_line"
+                    android:layout_below="@id/v4"
+                    android:background="@color/grey"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/matchwrap"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    style="@style/icon_styl"
+                    android:src="@drawable/ic_currency"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/v5"
+                    style="@style/linear_layout_line"
+                    android:layout_toEndOf="@id/img5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/currency"
+                        style="@style/textview_small"
+                        />
+
+                    <TextView
+                         android:id="@+id/currency"
+                        tools:text="Nigeria"
+                        style="@style/textview_medium"
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
