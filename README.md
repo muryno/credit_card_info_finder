@@ -10,9 +10,9 @@ Explaining project file
 - db store the responds data from api responds
 - server folder contain class to make request to the server (using retrofit)
 
--ui folder contain { activity - to hold ui
-                   base    -- for activity that share same property.. will be reusable
-                   repository  -- since database it contain network request{ do the dirty work to talk to server or local database}
-                   view   -- interface to transfer data
-                   viewmodel -- to give any activity that want to observe}
+-ui folder contain { *activity - to hold ui
+                   *base    -- for activity that share same property,
+                   *repository  -- since database it contain network request{ do the dirty work to talk to server or local database}
+                   *view   -- interface to transfer data
+                   *viewmodel -- to give any activity that want to observe}
 }
