@@ -113,20 +113,20 @@ abstract class BaseActivity: AppCompatActivity() {
     }
 
     protected fun toastSuccess(msg: String) {
-        MainApplication.getInstance()?.applicationContext?.let {
+        MainApplication.instance?.applicationContext?.let {
             Toasty.success(it, msg, Toast.LENGTH_SHORT, true).show() }
     }
 
     protected fun toastError(msg: String) {
-        MainApplication.getInstance()?.applicationContext?.let { Toasty.error(it, msg, Toast.LENGTH_SHORT, true).show() }
+        MainApplication.instance?.applicationContext?.let { Toasty.error(it, msg, Toast.LENGTH_SHORT, true).show() }
     }
 
     protected fun toastInfo(msg: String) {
-        MainApplication.getInstance()?.applicationContext?.let { Toasty.info(it, msg, Toast.LENGTH_SHORT, true).show() }
+        MainApplication.instance?.applicationContext?.let { Toasty.info(it, msg, Toast.LENGTH_SHORT, true).show() }
     }
 
     protected fun toastWarning(msg: String) {
-        MainApplication.getInstance()?.applicationContext?.let { Toasty.warning(it, msg, Toast.LENGTH_SHORT, true).show() }
+        MainApplication.instance?.applicationContext?.let { Toasty.warning(it, msg, Toast.LENGTH_SHORT, true).show() }
     }
 
 }

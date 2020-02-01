@@ -11,7 +11,7 @@
     <string name="country">Country</string>
     <string name="currency">Currency</string>
     <string name="here_are_your_n_card_details">Here are your\n card details</string>
-    <string name="card_details">Scan your credit card number or\nEnter the first digits of a card number (BIN/IIN)</string>
+    <string name="card_details">Scan your credit card number or\nEnter the 16 digits of a card number (BIN/IIN)</string>
     <string name="enter_card_number">Enter card number</string>
 
     <string name="card_number"> XXXX XXXX XXXX XXXX</string>

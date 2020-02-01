@@ -13,10 +13,10 @@ import java.util.*
 @TargetApi(Build.VERSION_CODES.M)
 fun isOnline(): Boolean {
 
-    if ( MainApplication.getInstance()?.applicationContext == null)
+    if ( MainApplication.instance?.applicationContext == null)
         return false
 
-    val cm = MainApplication.getInstance()?.applicationContext
+    val cm = MainApplication.instance?.applicationContext
         ?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
 
@@ -33,7 +33,7 @@ fun greetings() :String? {
     val morning3 = "Beautiful morning"
     val evening = "Good afternoon"
     val day = "Guess your day is going on fine"
-    val night = "Almost time for bed..how is the evening"
+    val night = "Good evening"
     when (c.get(Calendar.HOUR_OF_DAY)) {
         in 0..5 -> {
             return earlmorning

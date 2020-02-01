@@ -74,7 +74,7 @@ class MainActivity : BaseActivity() {
         // to observe result from server and send through intent to display page
         viewModel?._card?.observe(this , Observer {
             if (it != null ){
-                val i = Intent(MainApplication.getInstance()?.applicationContext,CardDetailActivity::class.java)
+                val i = Intent(MainApplication.instance?.applicationContext,CardDetailActivity::class.java)
                 i.putExtra("data",it)
                 startActivity(i)
 
@@ -203,6 +203,7 @@ class MainActivity : BaseActivity() {
             progress_bar.visibility = View.GONE
             btn.isEnabled = true
             edtCardNumber.isEnabled = true
+            edtCardNumber.text.clear()
         }
 
     }
