@@ -4,7 +4,7 @@ import androidx.multidex.MultiDexApplication
 import java.util.concurrent.Executors
 
 class MainApplication : MultiDexApplication() {
-    override fun onCreate() { v3super.onCreate()
+    override fun onCreate() { super.onCreate()
         instance = this
     }
 
