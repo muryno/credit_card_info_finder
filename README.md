@@ -1,10 +1,6 @@
 # credit_card_info_finder
-v1
 
-
-![github-large](https://miro.medium.com/max/640/1*9PFax8JDvffYsebCmi6BYA.gif)
-
-
+![](ezgif.com-gif-maker.gif)
 
 
 * Android app which make use of  BINLIST API  to get credit card details and display the card information.
