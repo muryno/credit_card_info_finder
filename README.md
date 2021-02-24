@@ -16,9 +16,12 @@ Explaining project file
 - db store the responds data from api responds
 - server folder contain class to make request to the server (using retrofit)
 
--ui folder contain { *activity - to hold ui
-                   *base    -- for activity that share same property,
-                   *repository  -- since database it contain network request{ do the dirty work to talk to server or local database}
-                   *view   -- interface to transfer data
-                   *viewmodel -- to give any activity that want to observe}
-}
+* ui folder file
+-activity - contain the user interface view class
+-base    -- it is an abstract class for activity that share same properties,
+-repository -- class for making network call to the server
+-view -- interface  to pass server response to viewmodel
+--viewmodel. -- is a class that is responsible for preparing and managing the data for an Activit
+
+
+
