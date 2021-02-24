@@ -1,4 +1,4 @@
-package com.muryno.cardfinder.ui.activity
+package com.muryno.cardfinder.view.activity
 
 import com.muryno.cardfinder.MainApplication
 import android.app.Activity
@@ -14,8 +14,8 @@ import cards.pay.paycardsrecognizer.sdk.Card
 import cards.pay.paycardsrecognizer.sdk.ScanCardIntent
 import cards.pay.paycardsrecognizer.sdk.ScanCardIntent.CancelReason
 import com.muryno.cardfinder.R
-import com.muryno.cardfinder.ui.base.BaseActivity
-import com.muryno.cardfinder.ui.viewmodel.MainViewModel
+import com.muryno.cardfinder.view.base.BaseActivity
+import com.muryno.cardfinder.viewmodel.MainViewModel
 import com.muryno.cardfinder.utils.getCartLogo
 import com.muryno.cardfinder.utils.getGreetingIcon
 import com.muryno.cardfinder.utils.greetings
@@ -59,6 +59,7 @@ class MainActivity : BaseActivity() {
         greeting_.text = greetings()
 
 
+        //
         viewModel?._error?.observe(this, Observer {
             toastError(it)
             progressDialog(false)
@@ -174,6 +175,7 @@ class MainActivity : BaseActivity() {
     }
 
 
+    //post card details to server
 
     private fun postCardDetailsToServer(s: Editable){
 
@@ -188,6 +190,7 @@ class MainActivity : BaseActivity() {
     }
 
 
+    //shows progress dialog
 
     fun progressDialog(bol : Boolean){
 

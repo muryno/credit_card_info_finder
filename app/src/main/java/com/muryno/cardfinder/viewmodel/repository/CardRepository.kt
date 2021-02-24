@@ -1,8 +1,8 @@
-package com.muryno.cardfinder.ui.repository
+package com.muryno.cardfinder.viewmodel.repository
 
-import com.muryno.cardfinder.db.CardDetails
-import com.muryno.cardfinder.server.RetrofitClient
-import com.muryno.cardfinder.ui.view.CardView
+import com.muryno.cardfinder.model.entity.CardDetails
+import com.muryno.cardfinder.model.server.RetrofitClient
+import com.muryno.cardfinder.view.view.CardView
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

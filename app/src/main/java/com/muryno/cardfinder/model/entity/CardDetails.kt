@@ -1,4 +1,4 @@
-package com.muryno.cardfinder.db
+package com.muryno.cardfinder.model.entity
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

@@ -1,8 +1,6 @@
 package com.muryno.cardfinder
 
 import android.text.Editable
-import com.muryno.cardfinder.ui.activity.MainActivity
-import com.muryno.cardfinder.utils.getGreetingIcon
 import com.muryno.cardfinder.utils.greetings
 import com.muryno.cardfinder.utils.isOnline
 import com.muryno.cardfinder.utils.setCardNumber

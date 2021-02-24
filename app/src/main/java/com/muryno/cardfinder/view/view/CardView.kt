@@ -1,6 +1,6 @@
-package com.muryno.cardfinder.ui.view
+package com.muryno.cardfinder.view.view
 
-import com.muryno.cardfinder.db.CardDetails
+import com.muryno.cardfinder.model.entity.CardDetails
 
 interface CardView{
     fun loadingFailed(msg: String)

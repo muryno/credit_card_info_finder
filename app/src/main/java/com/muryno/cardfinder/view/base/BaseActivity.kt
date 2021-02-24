@@ -1,4 +1,4 @@
-package com.muryno.cardfinder.ui.base
+package com.muryno.cardfinder.view.base
 
 import android.content.BroadcastReceiver
 import android.content.Context

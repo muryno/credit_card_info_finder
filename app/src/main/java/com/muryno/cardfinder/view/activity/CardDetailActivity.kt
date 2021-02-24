@@ -1,9 +1,9 @@
-package com.muryno.cardfinder.ui.activity
+package com.muryno.cardfinder.view.activity
 
 import android.os.Bundle
 import com.muryno.cardfinder.R
-import com.muryno.cardfinder.db.CardDetails
-import com.muryno.cardfinder.ui.base.BaseActivity
+import com.muryno.cardfinder.model.entity.CardDetails
+import com.muryno.cardfinder.view.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_card_detail.*
 
 class CardDetailActivity : BaseActivity() {

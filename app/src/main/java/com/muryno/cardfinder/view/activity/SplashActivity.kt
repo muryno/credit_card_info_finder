@@ -1,9 +1,8 @@
-package com.muryno.cardfinder.ui.activity
+package com.muryno.cardfinder.view.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.muryno.cardfinder.ui.base.BaseActivity
+import com.muryno.cardfinder.view.base.BaseActivity
 
 class SplashActivity : BaseActivity() {
 

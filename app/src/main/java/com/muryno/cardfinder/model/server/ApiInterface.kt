@@ -1,4 +1,4 @@
-import com.muryno.cardfinder.db.CardDetails
+import com.muryno.cardfinder.model.entity.CardDetails
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

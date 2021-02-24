@@ -1,4 +1,4 @@
-package com.muryno.cardfinder.server
+package com.muryno.cardfinder.model.server
 
 import ApiInterface
 import com.google.gson.GsonBuilder
