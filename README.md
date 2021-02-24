@@ -2,9 +2,8 @@
 v1
 
 
-![""](/credit_card_info_finder/ezgif.com-gif-maker.gif?raw=true "")
+![""](https://miro.medium.com/max/640/1*9PFax8JDvffYsebCmi6BYA.gif?raw=true "")
 
-![Alt text]("https://miro.medium.com/max/640/1*9PFax8JDvffYsebCmi6BYA.gif")
 
 
 
