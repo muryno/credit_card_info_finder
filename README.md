@@ -1,5 +1,11 @@
 # credit_card_info_finder
 v1
+
+![alt text](https://github.com/muryno/credit_card_info_finder/blob/master/ezgif.com-gif-maker.gif?raw=true)
+
+
+
+
 * Android app which make use of  BINLIST API  to get credit card details and display the card information.
 * well tested Unit and UI tests with junit and expresso  
 * Design pattern used - MVVM (Model-View-ViewModel) 
