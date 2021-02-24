@@ -1,7 +1,7 @@
 # credit_card_info_finder
 v1
 
-![alt text](https://github.com/muryno/credit_card_info_finder/blob/master/ezgif.com-gif-maker.gif?raw=true)
+![alt text](https://github.com/muryno/credit_card_info_finder/blob/origin/master/ezgif.com-gif-maker.gif?raw=true)
 
 
 
